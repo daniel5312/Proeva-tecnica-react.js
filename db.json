@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@biota.com",
+      "password": "admin"
+    },
+    {
+      "id": "9ceb",
+      "email": "beto@biota.com",
+      "password": "beto"
+    },
+    {
+      "id": "2ee2",
+      "email": "andre@biota.com",
+      "password": "andres"
+    },
+    {
+      "id": "1f98",
+      "email": "anberto@yumail.com",
+      "password": "gerardo"
+    },
+    {
+      "id": "b30a",
+      "email": "bertilda@yumail.com",
+      "password": "bertilda"
+    },
+    {
+      "id": "d61c",
+      "email": "antonio@yumail.com",
+      "password": "antonio"
+    },
+    {
+      "id": "d389",
+      "email": "beatriz@yumail.com",
+      "password": "beatriz"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  
+  place-items: center;
+  
+  background-color: #020202;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
