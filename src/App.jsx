@@ -20,8 +20,9 @@ function App() {
           </PrivateRoute>
         }
       />
-      <Route path="/usuarios" element={<UsuariosList />} />
+      <Route path="/users" element={<UsuariosList />} />
       <Route path="/editar/:id" element={<EditarUsuario />} />
+      <Route path="*" element={<UsuariosList/>} />
     </Routes>
   );
 }

@@ -1,5 +1,6 @@
 // src/pages/UsuariosList.jsx
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import {
@@ -56,13 +57,15 @@ const UsuariosList = () => {
               <td>{usuario.password}</td>
               <td>
                 <button
-                  className="btn btn-warning btn-sm me-2"
+                  className="btn btn-success btn-sm me-2"
                   onClick={() => navigate(`/editar/${usuario.id}`)}
                 >
                   Editar
                 </button>
+              <td/>
+              <td></td>
                 <button
-                  className="btn btn-danger btn-sm"
+                  className="btn btn-dark btn-sm"
                   onClick={() => handleEliminar(usuario.id)}
                 >
                   Eliminar

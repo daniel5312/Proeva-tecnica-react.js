@@ -1,6 +1,5 @@
-// src/services/usuariosService.js
 
-const API_URL = "http://localhost:4000/usuarios";
+const API_URL = "http://localhost:4000/users";
 
 export const obtenerUsuarios = async () => {
   const res = await fetch(API_URL);
