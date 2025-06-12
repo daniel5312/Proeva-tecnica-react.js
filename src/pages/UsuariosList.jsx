@@ -7,6 +7,7 @@ import {
   obtenerUsuarios,
   eliminarUsuario,
 } from "../services/UsuariosService";
+import Header from "../components/Header";
 
 const UsuariosList = () => {
   const [usuarios, setUsuarios] = useState([]);
@@ -38,6 +39,8 @@ const UsuariosList = () => {
   }, []);
 
   return (
+    <>  
+    <Header />
     <div className="container mt-4">
       <h2>Usuarios Registrados</h2>
       <table className="table table-bordered table-hover">
@@ -76,6 +79,7 @@ const UsuariosList = () => {
         </tbody>
       </table>
     </div>
+  </>
   );
 };
 

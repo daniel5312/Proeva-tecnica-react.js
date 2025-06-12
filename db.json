@@ -2,12 +2,12 @@
   "users": [
     {
       "id": "1",
-      "email": "DanielVargas@biota.com",
-      "password": "danielv"
+      "email": "admin@biota.com",
+      "password": "admin"
     },
     {
       "id": "9ceb",
-      "email": "betoandre@biota.com",
+      "email": "beto@biota.com",
       "password": "beto"
     },
     {
@@ -34,11 +34,6 @@
       "id": "d389",
       "email": "beatriz@yumail.com",
       "password": "beatriz"
-    },
-    {
-      "id": "a7bb",
-      "email": "bernardo@yumail.com",
-      "password": "gerardo"
     }
   ]
 }
